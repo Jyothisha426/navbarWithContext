@@ -1,0 +1,82 @@
+.navbar-bg-dark {
+  background-color: #333333;
+}
+
+.navbar-bg-light {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+
+.nav-link-light {
+  color: #ffffff;
+}
+
+.nav-link-dark {
+  color: #000000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1110px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-content {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.website-logo {
+  height: 48px;
+  margin-left: 12px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-menu-item {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.theme-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 0px solid transparent;
+}
+
+.theme-img {
+  height: 31px;
+}
